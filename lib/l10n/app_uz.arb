@@ -1,0 +1,4 @@
+{
+    "hello": "Salom {userName}",
+    "nKebabs": "{count, plural, =0{0 kaboblar} =1{1 ta kabob} other{{count} ta kaboblar}}"
+}

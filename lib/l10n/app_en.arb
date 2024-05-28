@@ -1,0 +1,22 @@
+{
+  "hello": "Hello {userName}",
+  "@hello": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "example": "Bob"
+      }
+    }
+  },
+  "nKebabs": "{count, plural, =0{no kebabs} =1{1 kebab} other{{count} kebabs}}",
+  "@nKebabs": {
+    "description": "A plural message",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "format": "compact"
+      }
+    }
+  }
+}
